@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    height:100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('/images/music-background.jpeg');
+    background-size: cover;
+}
+
+.nav-bar{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(224, 143, 30);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+#header .nav-bar #headphones{
+    margin: 0 2vh;
+    width: 7vh;
+    height: auto;
+    object-fit: cover;
+}
+
+
+#header .nav-bar ul{
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+}
+
+#header .nav-bar ul li{
+    display: inline-block;
+    margin-right: 5vh;
+}
+
+#header .nav-bar #spotify-logo{
+    margin-top: 8px;
+    width: 75px;
+    height: fit-content;
+}
+
+#header .nav-bar ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#header .nav-bar ul li a:hover{
+    text-shadow: 0 0 2px #fff;
+}
+
+#header .hero{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+#header .hero .h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#header .hero .p{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    max-width: 700px;
+}
+
+#header .hero p .blue-link-underline{
+    color: #3783ff;
+}
+
+
+
+
+
+
+
